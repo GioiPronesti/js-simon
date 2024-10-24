@@ -21,4 +21,18 @@ individua gli elementi di cui hai bisogno
 immagina la logica, passo passo 
 
 "Dati 2 array di numeri, indica quali e quanti numeri ci sono in comune tra i due array"
+
+5 fasi del gioco: 
+
+1- generazione randomica dei 5 numeri appare countdown + stampa testo 1 memorizza numeri
+
+2- parte countdown(30s -> 0s) utente ha 30 secondi per memorizzare i numeri a schermo     
+   dopo di che i numeri mostrati inizialmente scompaiono       
+
+3- countdown sparisce, appaiono input vuoti, utente inserisce i numeri ricordati nelle caselle
+   appare stampa testo 2,  inserisci i numeri ricordati
+
+4- inserimento numeri utente e controllo che in ogni campo sia stato inserito un valore numerico
+
+5- il software ti dice quanti e quali dei numeri da indovinare sono stati individuati. testo 3
 */ 
