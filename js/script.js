@@ -27,7 +27,7 @@ immagina la logica, passo passo
 1- generazione randomica dei 5 numeri appare countdown + stampa testo 1 memorizza numeri
 
 2- parte countdown(30s -> 0s) utente ha 30 secondi per memorizzare i numeri a schermo     
-   dopo di che i numeri mostrati inizialmente scompaiono       
+   dopo di che i numeri mostrati inizialmente scompaiono 
 
 3- countdown sparisce, appaiono input vuoti, utente inserisce i numeri ricordati nelle caselle
    appare stampa testo 2,  inserisci i numeri ricordati
@@ -36,3 +36,34 @@ immagina la logica, passo passo
 
 5- il software ti dice quanti e quali dei numeri da indovinare sono stati individuati. testo 3
 */ 
+
+/* 1) Raccolta dati
+
+abbiamo una lista di 5 numeri random, array 5 numeri 
+
+es. arrayNumers[34,25,16,2,48] 
+
+const display = document.getElementById('display');
+
+let timer
+
+es funzione timer()    
+
+// Gestiamo il timer  // modifica per ottenere il countdown da 30 secondi a 0 
+  count = 0;
+  display.innerText = count;
+
+  // incremento il tempo
+  timer = setInterval(() => {
+    display.innerText = ++count;
+  }, 1000);
+});
+
+quando count === 0 
+
+l'elemento countdown sparisce e compaiono i campi di input 
+per l'inserimento dati,  il gioco continua. 
+
+
+   
+*/
