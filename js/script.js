@@ -1,5 +1,4 @@
-
-console.log('hello console)')
+console.log("hello console)");
 
 /*Descrizione:
 
@@ -35,19 +34,19 @@ immagina la logica, passo passo
 4- inserimento numeri utente e controllo che in ogni campo sia stato inserito un valore numerico
 
 5- il software ti dice quanti e quali dei numeri da indovinare sono stati individuati. testo 3
-*/ 
+*/
 
 /* 1) Raccolta dati
 
 abbiamo una lista di 5 numeri random, array 5 numeri 
 
-es. arrayNumers[34,25,16,2,48] 
+es.  
 
 const display = document.getElementById('display');
 
 let timer
 
-es funzione timer()    
+ funzione timer()    
 
 // Gestiamo il timer  
 // modifica per ottenere il countdown da 30 secondi a 0 
@@ -66,27 +65,50 @@ quando count === 0
 l'elemento countdown sparisce e compaiono i campi di input 
 per l'inserimento dati,  il gioco continua. 
 
-*/   
+*/
 
-// Recupero elementi html nelle variabili 
+// Recupero elementi html nelle variabili
 
-const displayCountDown = document.getElementById('countdown')
+const displayCountDown = document.getElementById("countdown");
 //console.log(displayCountDown)
 
-const displayStepsToDo = document.getElementById('instructions')
+const displayStepsToDo = document.getElementById("instructions");
 //console.log(displayStepsToDo)
 
-const displayNumbers = document.getElementById('numbers-list')
+const displayNumbers = document.getElementById("numbers-list");
 //console.log(displayNumbers)
 
-const displayForm = document.getElementById('answers-form')
+const displayForm = document.getElementById("answers-form");
 //console.log(displayForm)
 
-const displayAlert = document.getElementById('message')
+const displayAlert = document.getElementById("message");
 //console.log(displayAlert)
 
-// Gestisco il countdown di 30 secondi 
+// Gestisco il countdown di 30 secondi
 
+//function countdown() {
+/*
+let timerdown;
+// modifica per ottenere il countdown da 30 secondi a 0
 
+count = 5;
+displayCountDown.innerText = count;
 
+// decremento del tempo
+timerdown = setInterval(() => {
+  displayCountDown.innerText = --count;
+}, 1000);
 
+// Blocco il timer
+
+if (count <= 0) {
+    clearInterval(timerdown);
+}
+
+//}
+
+*/
+
+const arrayNumbers = [34, 25, 16, 2, 48];
+
+const userNumbers = [];
