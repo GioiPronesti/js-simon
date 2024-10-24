@@ -49,7 +49,9 @@ let timer
 
 es funzione timer()    
 
-// Gestiamo il timer  // modifica per ottenere il countdown da 30 secondi a 0 
+// Gestiamo il timer  
+// modifica per ottenere il countdown da 30 secondi a 0 
+  
   count = 0;
   display.innerText = count;
 
@@ -64,6 +66,27 @@ quando count === 0
 l'elemento countdown sparisce e compaiono i campi di input 
 per l'inserimento dati,  il gioco continua. 
 
+*/   
 
-   
-*/
+// Recupero elementi html nelle variabili 
+
+const displayCountDown = document.getElementById('countdown')
+//console.log(displayCountDown)
+
+const displayStepsToDo = document.getElementById('instructions')
+//console.log(displayStepsToDo)
+
+const displayNumbers = document.getElementById('numbers-list')
+//console.log(displayNumbers)
+
+const displayForm = document.getElementById('answers-form')
+//console.log(displayForm)
+
+const displayAlert = document.getElementById('message')
+//console.log(displayAlert)
+
+// Gestisco il countdown di 30 secondi 
+
+
+
+
